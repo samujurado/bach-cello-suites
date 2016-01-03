@@ -1,3 +1,6 @@
+\version "2.18.0"
+\language "english"
+
 gavottefivetwo = \transpose c c' {
   \key a \minor
   \time 12/8
@@ -21,7 +24,7 @@ gavottefivetwo = \transpose c c' {
     gs a b e\3 gs b e' d'\4 e' f' e' d'\4 |
     e' d'\4 c'\2 b\2 c'\2 d'\4 c'\2 b\2 a gs a b | \break
     a e c a c e a c e a b gs |
-    <<a4.~\1 e\2 cs\3 a4\4>> a8 g\4 f\3 e f\3 g\4 f\3 e d | \break
+    <<a4.~\1 e\2 cs\3 a4.~\4>> a8 g\4 f\3 e f\3 g\4 f\3 e d | \break
     cs d e a b cs' d' cs' d' e' d' cs' |
     d'^. c'\4([ bf\4 a\4 bf\4 c'\4] bf^.\4) c'([ d' e' d' c'] | \break
     d'^.) a\2([ g\2 fs\2 g\2 a\2] g^.\2) cs'([ d' e' d' cs'] |

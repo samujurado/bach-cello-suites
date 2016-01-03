@@ -1,3 +1,6 @@
+\version "2.18.0"
+\language "english"
+
 bourreefourtwo = \transpose bf a' {
   \key bf \major
   \time 2/2
@@ -10,6 +13,7 @@ bourreefourtwo = \transpose bf a' {
     ef c' f a\4 |
     bf f <<bf\1 f\2 d\3 bf\4>>
   }
+ 
   \break
   \repeat volta 2 {
     <<f'\1 bf\3>> |
@@ -18,10 +22,11 @@ bourreefourtwo = \transpose bf a' {
     <<f' a>> ef' <<ef' bf>> d' |
     c'8 bf a g\2 f ef <<bf4 d>> | \break
     <<bf ef>> c' <<c' f>> a\4 |
-    <<bf8\1 g\4>> c' d'4 <<d' d>> bf |
+    <<bf8 g>> c' d'4 <<d' d>> bf |
     ef c' f a\4 |
-    <<bf2.\1 f\2 d\3 bf\4>>
+    <<bf2.\1 f\2 d\3 bf\4>> 
   }
+ 
 }
 
 \bookpart {

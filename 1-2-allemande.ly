@@ -1,3 +1,6 @@
+\version "2.18.2"
+\language "english"
+
 allemandeone = \transpose c c' {
   \tempo 4 = 104
   \key g \major
@@ -24,22 +27,22 @@ allemandeone = \transpose c c' {
   \break
   \repeat volta 2 {
     a16 |
-    <<a4~\1 fs~\2 d~\3 a~\4>> <<a16\1 fs\2 d\3 a\4>> fs g\4 a d e fs g\4 a fs d c |
+    <<a4~\1 fs~\2 d~\3 a~\4>> <<a16\1 fs\2 d\3 a\4>> fs g\4 a d e fs g\4 a fs d c' |
     b d' g\4 fs g\4 a b c' d' b a g\4 f! e f d' |
     <<e16.\2 c\3>> d32( c8) c'16 a b c' d' c' b c' d' b c' a |
-    <<gs16.\4 d\3>> fs32( e8) b16 d c d c e fs gs a c' b a |
+    <<gs16.\4 d\3>> fs32( e8) b16 d' c' b c' e fs gs a c' b a |
     <<d'8\1 g\4>> b16 c' d e f! a <<b8.\1 e\2 d\3 gs\4>> e16 b d c b |
     <<c'8.\1 e\2 c\3 a\4>> b16 e g?\4 f! e f d bf a bf c' d' a |
-    gs\4 a b? e f! d c d c e a b <<b8.\1 e\2 d\3 gs\4>> a16 |
+    gs\4 a b? e f! d c' b c' e a b <<b8.\1 e\2 d\3 gs\4>> a16 |
     <<a8.\1 e\2 c\3 a\4>> b16 c' b c' g\4 fs g\4 a e d c b a |
     g\4 d fs c' b a g\4 a b c' d' e' d' e' f'! d' |
-    <<e'8\1 c\3>> <<e\2 g\4>> c16 d' c' b a b c' e' <<d'8.\1 g\2 d\3 g\4>> c'16 |
-    <<d'8\1 b\4>> <<a\1 fs\2>> b16 c' b a g\4 fs e g\4 b d' c' b |
-    <<c'8\1 g\4>> <<c\3 g\4>> a16 e fs g\4 fs a b c' d' c' b a |
+    <<e'8\1 c\3>> <<e\2 g\4>> c16 d' c' b a b c' e' d'8.\1 c'16 |
+    <<d'8\1 fs\2>> <<a\2 d\3>> b16 c' b a g\4 fs e g\4 b d' c' b |
+    <<c'8\1 e\2>> <<c\3 g\4>> a16 e fs g\4 fs a b c' d' c' b a |
     g\4 d fs a c' a fs d <<b8.\1 g\2 d\3 g\4>> d16 e g\4 a cs' | 
     d' a fs e d f! g\4 b c' g\4 e d c e a c' |
     fs a c' e' <<d'8.\1 fs\2 d\3 a\4>> c'16 b g\4 a g\4 d a g\4 fs |
-    g\4 g b d g\4 b d' fs' g'_\markup "CX" d'\2 b\3 g\4 <<g'8.\1 d'\2 b\3 g'\4>>
+    g\4 g b d g\4 b d' fs' g'_\markup "CVII" d'\4 b\2 g\3 <<g8.\3 d'\4 b\2 g'\1>>
   }
 }
 

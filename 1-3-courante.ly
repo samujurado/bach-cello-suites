@@ -1,3 +1,6 @@
+\version "2.18.2"
+\language "english"
+
 couranteone = \transpose c c' {
   \tempo 4 = 100
   \time 3/4
@@ -29,26 +32,28 @@ couranteone = \transpose c c' {
     a8 |
     a fs d e16 fs g\2 fs e d |
     d'8 fs c b16 c' d' c' b a |
-    b g\4 a b c b a g\4 fs8 d' |
+    b g\4 a b c' b a g\4 fs8 d' |
     b g\4 g\2 b16 a c' b a g\4 | 
-    a8 fs ds16 a b c b a g fs |
-    g8\4 e e g16\4 fs a g\4 fs e |
+    a8 fs ds16 a b c' b a g fs |
+    g8\4 e e\3 g16\4 fs a g\4 fs e |
     f! e f a f e f a c' b c' a |
-    <<ds'4\1~ b\2 fs\3 ds'\4>> <<ds'16\1 b\2 fs\3 ds'\4>> c'\2 b\2 a g\4 fs a ds |
+    <<ds'4\1~ fs\2 ds\3 b\4>>
+    <<ds'16\1 fs\2 ds\3 b\4>>
+    c' b a g\4 fs a ds |
     g8\4 b a16 g\4 fs e b8 ds8 |
     <<b4.\1 e\2 e\3 g\4>> e16 fs g a b c' |
     d'8 f! b e16 f g f e d |
-    e8 c c c16 b e fs g e |
+    e8 c c' c16 d e fs g e |
     cs g\4 a g\4 a g\4 cs g\4 cs g\4 a g\4 |
     c! fs a fs a fs c fs c fs a fs |
     b d e f! g\4 f e d e d' c' b |
     fs a b c' d c' b a b8 g\4 |
     c b16 a c' b a g\4 d8 fs |
-    g16\4 a g\4 b g\4 a g\4 c' g\4 a g\4 d |
-    g\4 a g\4 e g\4 a g\4 fs g\4 a g\4 g |
-    c' b a g\4 fs e d c b8. a16 |
-    d' c'\4 d' b\4 d' c'\4 d' b\4 e\3 d' c' d |
-    c' d c' a c' b c' a d c' b a |
+    g16\4 a g\4 b g\4 a g\4 c' g\4 a g\4 d' |
+    g\4 a g\4 e' g\4 a g\4 fs' g\4 a g\4 g' |
+    c'\2 b\2 a g\4 fs e d c b8. a16 |
+    d' c'\4 d' b\4 d' c'\4 d' b\4 e d' c' b |
+    c' b c' a c' b c' a d c' b a |
     b a b g\4 c b a g\4 d8 fs |
     <<b2\1 g\2 d\3 g\4>> r8
   }

@@ -1,3 +1,6 @@
+\version "2.18.2"
+\language "english"
+
 sarabandeone = \transpose c c' {
   \tempo 8 = 80
   \time 3/4
@@ -16,7 +19,7 @@ sarabandeone = \transpose c c' {
     <<a8\1 fs\2 d\3 a\4>> e16 d
     <<c'4.\1 fs\2 d\3 a\4>> b16 a |
     <<b16\1 g\2 d\3 g\4>> fs g\4 e  <<a8.\1 fs\2 ds\3 a\4>> e16 fs g\4 a b |
-    df a b c' b8 a16 g\4 fs e a fs |
+    ds a b c' b8 a16 g\4 fs e a fs |
     g\4 e fs ds e4 <<b\1 g\2 e\3 g\4>> |
     <<b8.\1 g\2 d\3 g\4>> e32 f! <<e8.\2 c\3 g\4>> fs16 g\4 a b c' |
     gs d' c' b <<c'8.\1 e\2 c\3 a\4>> b16 a g!\4 fs e |

@@ -1,3 +1,6 @@
+\version "2.18.2"
+\language "english"
+
 minuetoneone = \transpose c c' {
   \tempo 4 = 104
   \time 3/4
@@ -24,7 +27,7 @@ minuetoneone = \transpose c c' {
     <<b4.\1 e\2 e\3 g\4>> e'8 d' c' |
     b d <<b4\1 g\2 d\3 g\4>> d8 e16 f! |
     f!8 d e c c' b |
-    cs' e <<a4\1 fs\2 d\3 a\4>> e8 fs16 g\2 |
+    cs' e <<a4\1 e\2 cs\3 a\4>> e8 fs16 g\2 |
     g8\4 a fs d d a |
     d fs a c' b d' |
     e g\4 b d' c' e' |
@@ -50,9 +53,9 @@ minuetonetwo = \transpose c c' {
   \break
   \repeat volta 2 {
     d8 fs a c' ef'! d' |
-    c' b a b <<g4\4 b\1>> |
+    c' bf a bf <<g4\4 bf\1>> |
     c8 e! g\4 bf d' c' |
-    b a g\4 a f ef |
+    bf a g\4 a f ef |
     d f bf a bf d |
     ef g\4 bf a bf d' |
     c' ef' d' bf f a |

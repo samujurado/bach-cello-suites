@@ -1,3 +1,6 @@
+\version "2.18.2"
+\language "english"
+
 gigueone = \transpose c c' {
   \key g \major
   \time 6/8
@@ -24,7 +27,7 @@ gigueone = \transpose c c' {
     a fs g\4 g\4 e fs |
     fs16 g\4 a8 fs d c' b |
     b g\4 a a fs g\4 |
-    g16\4 a b8 g\4 a d' c' |
+    g16\4 a b8 g\4 e d' c' |
     a d' c' d c' b |
     g\4 c' b c b a |
     g\4 fs e b e ds |
